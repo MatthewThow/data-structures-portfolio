@@ -12,4 +12,4 @@ The main variables were:
 - Conference
 - Games played
 ## Notebook
-[View Jupyter Notebook](notebooks/MatthewThow_CFBproject.ipynb)
+[View Jupyter Notebook](../notebooks/MatthewThow_CFBproject.ipynb)
