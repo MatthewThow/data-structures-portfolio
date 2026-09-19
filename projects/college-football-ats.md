@@ -27,11 +27,27 @@ Data was collected through the CollegeFootballData (CFBD) API using the cfbd Pyt
 
 Source documentation: https://github.com/CFBD/cfbd-python
 
-## 6. Visualizations and Insights
+## Visualizations and Insights
 
 ### Team Talent vs. ATS Win Percentage
 
 The scatterplot below examines whether more talented teams cover the spread more frequently.
+![Scatterplot of Team Talent vs. ATS Win Percentage](images/teamtalent_vs_ATSwin%.png)
+
+The fitted line slopes slightly downward, but the observations are widely dispersed. This suggests that teams with greater talent were not consistently better at covering the spread. The visual pattern appears weak rather than strongly predictive.
+
+### Team Talent vs. Average Cover Margin
+
+Average cover margin measures how far above or below the betting spread a team finished on average.
+![Scatterplot of Team Talent vs. Average Cover Margin](images/teamtalent_vs_avgcover.png)
+
+This relationship is also nearly flat. Teams at similar talent levels show both positive and negative average cover margins, indicating that roster talent by itself does not explain much of the variation in market adjusted performance.
+
+### Correlation Analysis
+The correlation between talent and ATS win percentage is -0.12, while the correlation between talent and average cover margin is approximately -0.05. Both are very close to zero, indicating little linear relationship between talent and ATS performance in this sample. ATS win percentage and average cover margin are much more strongly related (approximately 0.78), which is expected because teams that cover more frequently should generally have stronger average cover margins.
+
+
+
 
 
 
