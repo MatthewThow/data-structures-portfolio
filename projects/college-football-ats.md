@@ -46,7 +46,41 @@ This relationship is also nearly flat. Teams at similar talent levels show both 
 ### Correlation Analysis
 The correlation between talent and ATS win percentage is -0.12, while the correlation between talent and average cover margin is approximately -0.05. Both are very close to zero, indicating little linear relationship between talent and ATS performance in this sample. ATS win percentage and average cover margin are much more strongly related (approximately 0.78), which is expected because teams that cover more frequently should generally have stronger average cover margins.
 
+### Top 10 Teams by Talent
 
+This bar chart displays the ten college football teams with the highest talent ratings.
+
+![Top 10 Teams by Talent](images/top10teamsbytalent.png)
+
+
+### Top 10 Teams by Average Cover Margin
+
+This chart identifies the ten teams that outperformed betting spreads by the largest average margin.
+
+![Top 10 Teams by Average Cover Margin](images/top10teamsbyavgcovermargin.png)
+
+
+## Main Findings
+
+The 2025 data provide little evidence that a more talented roster automatically leads to better performance against the betting spread. The two measures of ATS performance tell a consistent story: talent had only a very weak negative relationship with ATS win percentage and almost no relationship with average cover margin. This result is plausible because point spreads are designed to incorporate expectations about team strength. A talented team may be expected to win by a large margin, making it difficult to cover even when the team wins the game. Conversely, a less talented team can perform well ATS by exceeding relatively lower market expectations. Therefore, the analysis should not be interpreted as evidence that talent makes teams worse. Instead, it suggests that team talent alone was not a useful predictor of whether a team would outperform the betting market during the 2025 season.
+
+## Limitations, Ethics, and Reflection
+
+### Limitations
+- The analysis covers only the 2025 season, so the relationship may differ in other seasons.
+- Team talent is represented by a single composite score and does not capture injuries, coaching, transfers during the season, player development, or matchup specific factors.
+- ATS results depend on betting market spreads, which incorporate information beyond roster talent.
+### Ethics
+This project uses publicly accessible sports data for analysis. The results should not be treated as gambling advice or as evidence of a reliable betting strategy.
+### Reflection and Next Steps
+A useful extension would be to repeat the analysis across several seasons, compare conferences, or add variables such as team record, offensive efficiency, defensive efficiency, or preseason expectations. Analysis using multiple seasons would help determine whether the weak relationship observed in 2025 is persistent or season specific.
+
+## Code and Transparency
+
+The complete Python analysis is contained in this notebook. Data were accessed from the CollegeFootballData API through the cfbd Python wrapper.
+
+### Data / Documentation Source
+- CollegeFootballData. cfbd-python: Python wrapper for the CFBD API. GitHub: https://github.com/CFBD/cfbd-python
 
 
 
