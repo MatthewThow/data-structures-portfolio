@@ -184,6 +184,6 @@ At the same time, the models demonstrate that fourth-down success is more compli
 ## Code, Data, and Transparency
 
 The complete Python analysis and machine-learning workflow can be viewed in the project's Jupyter Notebook.
-**[View the Final Fourth-Down Model Notebook](notebooks/4thdownmodel_MatthewThow.ipynb)**
+**[View the Final Jupyter Notebook](https://github.com/MatthewThow/data-structures-portfolio/blob/main/notebooks/4thdownmodel_MatthewThow.ipynb)**
 
 **Data Source:** NFL play-by-play data were obtained from the nflverse/nflfastR dataset.
