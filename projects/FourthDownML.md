@@ -1,6 +1,3 @@
-"Predicting NFL Fourth-Down Conversions"
----
-
 # Predicting NFL Fourth-Down Conversions Using Machine Learning
 
 ## Problem Definition
